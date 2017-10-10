@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:300,400,900");
+
+/*changing the body text to a serif because I'm a pleb*/
+body h2 {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+}
+
+/*adding the icons for social media. also because I'm a pleb */
+
+.icon.circle.fa-linkedin {
+	background: #0077b5;
+	color: #fff;
+}
+
+	.icon.circle.fa-linkedin:hover {
+		background: #0081c1;
+	}
+
+.icon.circle.fa-medium {
+	background: #029E74;
+	color: #fff;
+}
+
+	.icon.circle.fa-medium:hover {
+		background: #01aa7a;
+	}
+
+/*changing the link of the icons back to gray*/
+
+.icon.link {
+	color:inherit;
+}
+
+/*trying to get this thing to float ugh*/
+
+	.icon.link span {
+		color:fff;
+		-moz-transition: all 0.2s ease-in-out;
+		-webkit-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+    	top: 0;
+	}
+
+  .icon.link span:hover {
+    top: -0.2em;
+  }
+
+/*making the my role box the way it is*/
+.role {
+	background-image: linear-gradient(to right, white 1%,gray 100%), url('images/overlay.png');
+    background-blend-mode:overlay; 
+}
+.rolehead {
+	color: #666;
+	font-weight: 400;
+}
+.roletext {
+	color: #666;
+}
