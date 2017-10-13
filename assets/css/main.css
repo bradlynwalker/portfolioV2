@@ -1550,9 +1550,9 @@
 
 /* Basic */
 
-	body {
+/*	body {
 		background: #f3f6fa;
-	}
+	}*/
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;

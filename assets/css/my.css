@@ -6,6 +6,11 @@ body h2 {
 	font-size: 2em;
 }
 
+/*and it was allllll YELLOW*/
+
+body {
+	background: #fafaf1;
+}
 /*adding the icons for social media. also because I'm a pleb */
 
 .icon.circle.fa-linkedin {
@@ -49,13 +54,33 @@ body h2 {
 
 /*making the my role box the way it is*/
 .role {
-	background-image: linear-gradient(to right, white 1%,gray 100%), url('images/overlay.png');
+	background-image: linear-gradient(to right, white 1%,#ccc 50%), url('images/overlay.png');
     background-blend-mode:overlay; 
 }
 .rolehead {
 	color: #666;
 	font-weight: 400;
+	font-size: 1.5em;
 }
 .roletext {
-	color: #666;
+	color: #555;
+}
+
+.bigidea{
+	font-weight: 500;
+}
+.inlineimg{
+	align-self: center;
+	padding: 1%;
+    display: inline-block;
+    height: auto;
+    max-width:  45%;
+}
+
+/*literally who knows why this isn't working*/
+tr {
+    padding: 2em;
+}
+table tr {
+	padding: 60px;
 }
