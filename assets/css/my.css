@@ -54,16 +54,23 @@ body {
 
 /*making the my role box the way it is*/
 .role {
-	background-image: linear-gradient(to right, white 1%,#ccc 50%), url('images/overlay.png');
-    background-blend-mode:overlay; 
+	background-image: linear-gradient(to right, white 1%,#ccc 50%), url('images/overlay.png'), url(../../images/banner.jpg);
+    background-blend-mode: luminosity;
+    border-style: solid;
+    border-width: .5em; 
 }
 .rolehead {
 	color: #666;
 	font-weight: 400;
 	font-size: 1.5em;
+	text-shadow: 2px, 2px, black;
+	padding-left: 1em
 }
 .roletext {
 	color: #555;
+	text-shadow: 5px, 5px, black;
+	padding-left: 1em;
+	padding-right: .5em;
 }
 
 .bigidea{
