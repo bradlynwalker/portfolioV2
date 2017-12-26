@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:300,400,900");
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple');
 
 /*changing the body text to a serif because I'm a pleb*/
 body h2 {
@@ -55,10 +56,10 @@ body {
 /*making the my role box the way it is*/
 .role {
 	background-image: linear-gradient(to right, white 1%,#ccc 50%), url('images/overlay.png'), url(../../images/banner.jpg);
-    background-blend-mode: luminosity;
+    background-blend-mode: screen;
     border-style: solid;
     border-width: .5em; 
-    border-color: #bcb093;
+    border-color: #3C1519;
 }
 .rolehead {
 	color: #666;
@@ -109,4 +110,62 @@ border-color: #aca083;
 	float: left; 
 	text-align: left;
 	padding-left: .5em;
+}
+
+	#submain {
+		/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
+		/*background-position: top left, top right, bottom left, bottom right;*/
+		/*background-repeat: no-repeat;*/
+		background-size: 25em;
+		padding: 7em 0;
+	}
+
+		#submain > :last-child {
+			margin-bottom: 0;
+		}
+
+		#submain .sidebar section {
+			border-top: solid 1px rgba(124, 128, 129, 0.2);
+			margin: 3em 0 0 0;
+			padding: 3em 0 0 0;
+		}
+
+			#submain .sidebar section:first-child {
+				border-top: 0;
+				padding-top: 0;
+				margin-top: 0;
+			}
+
+	body.index #submain {
+		padding-top: 5em;
+	}
+
+	#submain {
+				padding: 5em 0;
+			}
+
+				#submain .sidebar {
+					border-top: solid 1px rgba(124, 128, 129, 0.1);
+					padding-top: 3em;
+				}
+
+					#submain .sidebar section {
+						border-top: 0;
+						padding-top: 0;
+					}
+
+			body.index #submain {
+				padding-top: 4.5em;
+			}
+/*change the index text*/
+		#banner .inner {
+			color: #8e7a3b;
+		}
+
+/*for when u gotta make a list u know what i mean fam*/
+.checklist {
+	font-size: 1.5em; 
+	color: #bcb093; 
+	padding-right: .5em;
+	font-weight: 600;
 }
